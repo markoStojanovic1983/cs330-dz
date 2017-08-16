@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="Test">
+        <ListPreference
+            android:entries="@array/odgovori"
+            android:entryValues="@array/odgovori"
+            android:key="odgovori"
+            android:summary="Pitanje"
+            android:title="Glavni grad Svajcarske je?" />
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Univerzitet Info">
+        <PreferenceScreen
+            android:key="pref_screen_2"
+            android:summary="Unos informacija o univerzitetu"
+            android:title="Informacije">
+            <EditTextPreference
+                android:name="NazivUniverziteta"
+                android:key="insertName"
+                android:summary="Unesite naziv Univerziteta"
+                android:title="Unos naziva" />
+            <EditTextPreference
+                android:name="AdresaUniverziteta"
+                android:key="insertLocation"
+                android:summary="Unesite adresu Univerziteta"
+                android:title="Unos adrese" />
+
+            <com.metropolitan.cs330_dz04.fragments.TimePreference
+
+                android:dialogTitle="Odabir Vremena"
+                android:key="time_key"
+                android:summary="Izaberite vreme"
+                android:title="Time Picker"
+                />
+
+            <com.metropolitan.cs330_dz04.fragments.DatePreference
+                android:dialogTitle="Odabir datuma"
+                android:key="date_key"
+                android:summary="Izaberite datum"
+                android:title="Date Picker"
+
+                />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+</PreferenceScreen>
+
+

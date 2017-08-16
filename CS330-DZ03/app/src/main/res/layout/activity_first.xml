@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.metropolitan.cs330_dz03.MainActivity">
+
+    <EditText
+        android:id="@+id/naziv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nazivBtn"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/nazivBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/naziv"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="12dp"
+        android:onClick="prikaziNaziv"
+        android:padding="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        android:text="Prikaži naziv univerziteta" />
+
+    <Button
+        android:id="@+id/lokacijaBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nazivBtn"
+        android:layout_below="@+id/nazivBtn"
+        android:layout_marginTop="12dp"
+        android:onClick="prikaziLokaciju"
+        android:text="Prikaži lokaciju univerziteta" />
+
+
+</android.widget.RelativeLayout>

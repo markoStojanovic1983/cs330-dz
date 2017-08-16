@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CS330-DZ03</string>
+    <string name="title_first_activity">FirstActivity</string>
+    <string name="title_second_activity">MetropolitanUniverzitet</string>
+    <string name="title_third_activity">ThirdActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>

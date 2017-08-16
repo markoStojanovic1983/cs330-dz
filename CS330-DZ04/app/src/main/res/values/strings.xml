@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CS330-DZ04</string>
+    <string-array name="odgovori">
+        <item>"Basel</item>
+        <item>"Cirih"</item>
+        <item>"Bern"</item>
+    </string-array>
+</resources>
